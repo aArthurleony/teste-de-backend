@@ -4,4 +4,5 @@ export function areaQuadrado(valor) {
 
 export function listaDeFrutas(){
   const frutas = ["Maçã", "Banana", "Ameixa", "Saputí", "uva"]
+  return frutas
 }

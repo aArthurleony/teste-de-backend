@@ -1,0 +1,9 @@
+export function NumerosPares(num) {
+  const par = [];
+  for (let i = 0; i < num.length; i++) {
+    if (num[i] % 2 === 0) {
+      par.push(num[i]);
+    }
+  }
+  return par;
+}

@@ -1,0 +1,6 @@
+import { ordemAlfabetica } from "./ordemAlfabetica";
+
+// Teste para a função sortStrings
+test('ordena lista de strings em ordem alfabética', () => {
+  expect(ordemAlfabetica(['c', 'b', 'a'])).toEqual(['a', 'b', 'c']);
+});

@@ -1,4 +1,4 @@
-import { areaQuadrado, listaDeFrutas } from "./funcao.js";
+import { areaQuadrado, listaDeFrutas } from "./.jtsts";
 
 test("Verifica área do quadrado", () => {
   expect(areaQuadrado(10)).toBe(100);
